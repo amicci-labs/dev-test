@@ -1,0 +1,319 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "email": "admin@amicci.com",
+      "name": "Administrador",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "gerente1",
+      "email": "gerente1@amicci.com",
+      "name": "João Silva",
+      "role": "manager"
+    },
+    {
+      "id": 3,
+      "username": "gerente2",
+      "email": "gerente2@amicci.com",
+      "name": "Maria Oliveira",
+      "role": "manager"
+    },
+    {
+      "id": 4,
+      "username": "usuario1",
+      "email": "usuario1@amicci.com",
+      "name": "Carlos Santos",
+      "role": "user"
+    },
+    {
+      "id": 5,
+      "username": "usuario2",
+      "email": "usuario2@amicci.com",
+      "name": "Ana Pereira",
+      "role": "user"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Móveis",
+      "description": "Produtos de mobiliário para ambientes diversos"
+    },
+    {
+      "id": 2,
+      "name": "Eletrônicos",
+      "description": "Produtos eletrônicos e gadgets"
+    },
+    {
+      "id": 3,
+      "name": "Decoração",
+      "description": "Itens decorativos para ambientes"
+    },
+    {
+      "id": 4,
+      "name": "Utensílios",
+      "description": "Utensílios domésticos e ferramentas"
+    },
+    {
+      "id": 5,
+      "name": "Têxtil",
+      "description": "Produtos têxteis e tecidos"
+    }
+  ],
+  "retailers": [
+    {
+      "id": 1,
+      "name": "MegaStore",
+      "contact": "Rodrigo Mendes",
+      "email": "contato@megastore.com",
+      "phone": "(11) 3456-7890"
+    },
+    {
+      "id": 2,
+      "name": "SuperMóveis",
+      "contact": "Fernanda Lima",
+      "email": "contato@supermoveis.com",
+      "phone": "(11) 2345-6789"
+    },
+    {
+      "id": 3,
+      "name": "TechWorld",
+      "contact": "Bruno Costa",
+      "email": "contato@techworld.com",
+      "phone": "(11) 4567-8901"
+    },
+    {
+      "id": 4,
+      "name": "Casa & Cia",
+      "contact": "Luciana Alves",
+      "email": "contato@casaecia.com",
+      "phone": "(11) 5678-9012"
+    },
+    {
+      "id": 5,
+      "name": "Decor Express",
+      "contact": "Paulo Ribeiro",
+      "email": "contato@decorexpress.com",
+      "phone": "(11) 6789-0123"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Linha Premium 2023",
+      "description": "Desenvolvimento de linha premium de móveis para sala de estar",
+      "retailer_id": 2,
+      "responsible_id": 2,
+      "category_id": 1,
+      "launch_date": "2023-12-15",
+      "status": "in_progress",
+      "created_at": "2023-06-10T14:30:00Z",
+      "updated_at": "2023-06-10T14:30:00Z",
+      "products": [
+        {
+          "id": 1,
+          "name": "Sofá Modular Premium",
+          "description": "Sofá modular com 3 lugares e chaise",
+          "specifications": "Estrutura em madeira maciça, estofamento em espuma D-33, tecido premium anti-manchas",
+          "estimated_cost": 2500.00,
+          "status": "in_progress",
+          "created_at": "2023-06-10T14:35:00Z",
+          "updated_at": "2023-06-10T14:35:00Z"
+        },
+        {
+          "id": 2,
+          "name": "Mesa de Centro Premium",
+          "description": "Mesa de centro com tampo de vidro e estrutura em madeira",
+          "specifications": "Tampo em vidro temperado 10mm, estrutura em madeira maciça, acabamento em laca",
+          "estimated_cost": 1200.00,
+          "status": "in_progress",
+          "created_at": "2023-06-10T14:40:00Z",
+          "updated_at": "2023-06-10T14:40:00Z"
+        },
+        {
+          "id": 3,
+          "name": "Rack para TV Premium",
+          "description": "Rack para TV com gavetas e nichos",
+          "specifications": "MDF 18mm com acabamento em laca, puxadores em alumínio, suporte para TV até 65\"",
+          "estimated_cost": 1800.00,
+          "status": "draft",
+          "created_at": "2023-06-10T14:45:00Z",
+          "updated_at": "2023-06-10T14:45:00Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Coleção Tech Home",
+      "description": "Linha de produtos eletrônicos para casa inteligente",
+      "retailer_id": 3,
+      "responsible_id": 3,
+      "category_id": 2,
+      "launch_date": "2024-03-20",
+      "status": "planning",
+      "created_at": "2023-07-05T10:15:00Z",
+      "updated_at": "2023-07-05T10:15:00Z",
+      "products": [
+        {
+          "id": 4,
+          "name": "Smart Speaker",
+          "description": "Alto-falante inteligente com assistente virtual",
+          "specifications": "Conectividade Wi-Fi e Bluetooth, controle por voz, integração com ecossistema de casa inteligente",
+          "estimated_cost": 350.00,
+          "status": "draft",
+          "created_at": "2023-07-05T10:20:00Z",
+          "updated_at": "2023-07-05T10:20:00Z"
+        },
+        {
+          "id": 5,
+          "name": "Smart Display",
+          "description": "Display inteligente com tela touch e assistente virtual",
+          "specifications": "Tela touch de 10\", câmera HD, microfones de longo alcance, alto-falantes estéreo",
+          "estimated_cost": 650.00,
+          "status": "draft",
+          "created_at": "2023-07-05T10:25:00Z",
+          "updated_at": "2023-07-05T10:25:00Z"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Coleção Verão 2024",
+      "description": "Linha de decoração para verão 2024",
+      "retailer_id": 5,
+      "responsible_id": 2,
+      "category_id": 3,
+      "launch_date": "2024-01-10",
+      "status": "planning",
+      "created_at": "2023-08-15T09:00:00Z",
+      "updated_at": "2023-08-15T09:00:00Z",
+      "products": [
+        {
+          "id": 6,
+          "name": "Conjunto de Almofadas Tropicais",
+          "description": "Kit com 4 almofadas com estampas tropicais",
+          "specifications": "Tecido 100% algodão, enchimento em fibra siliconada, zíper invisível",
+          "estimated_cost": 180.00,
+          "status": "draft",
+          "created_at": "2023-08-15T09:05:00Z",
+          "updated_at": "2023-08-15T09:05:00Z"
+        },
+        {
+          "id": 7,
+          "name": "Conjunto de Quadros Decorativos",
+          "description": "Kit com 3 quadros com temas de praia",
+          "specifications": "Impressão em canvas, moldura em madeira, tamanho 30x40cm",
+          "estimated_cost": 220.00,
+          "status": "draft",
+          "created_at": "2023-08-15T09:10:00Z",
+          "updated_at": "2023-08-15T09:10:00Z"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Utensílios Gourmet",
+      "description": "Linha de utensílios para cozinha gourmet",
+      "retailer_id": 4,
+      "responsible_id": 3,
+      "category_id": 4,
+      "launch_date": "2023-11-05",
+      "status": "in_progress",
+      "created_at": "2023-05-20T11:30:00Z",
+      "updated_at": "2023-05-20T11:30:00Z",
+      "products": [
+        {
+          "id": 8,
+          "name": "Conjunto de Facas Profissionais",
+          "description": "Kit com 5 facas profissionais para chefs",
+          "specifications": "Lâminas em aço inox, cabos ergonômicos, estojo para armazenamento",
+          "estimated_cost": 450.00,
+          "status": "in_progress",
+          "created_at": "2023-05-20T11:35:00Z",
+          "updated_at": "2023-05-20T11:35:00Z"
+        },
+        {
+          "id": 9,
+          "name": "Tábua de Corte Premium",
+          "description": "Tábua de corte em madeira nobre",
+          "specifications": "Madeira teca, tratamento antibacteriano, dimensões 40x30cm",
+          "estimated_cost": 180.00,
+          "status": "completed",
+          "created_at": "2023-05-20T11:40:00Z",
+          "updated_at": "2023-05-20T11:40:00Z"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Coleção Têxtil Inverno",
+      "description": "Linha de produtos têxteis para inverno",
+      "retailer_id": 1,
+      "responsible_id": 4,
+      "category_id": 5,
+      "launch_date": "2023-05-15",
+      "status": "completed",
+      "created_at": "2022-11-10T13:45:00Z",
+      "updated_at": "2023-05-16T10:00:00Z",
+      "products": [
+        {
+          "id": 10,
+          "name": "Manta de Microfibra",
+          "description": "Manta de microfibra para sofá",
+          "specifications": "Microfibra 300g/m², tamanho 1,50x2,00m, antialérgica",
+          "estimated_cost": 120.00,
+          "status": "completed",
+          "created_at": "2022-11-10T13:50:00Z",
+          "updated_at": "2023-05-16T10:00:00Z"
+        },
+        {
+          "id": 11,
+          "name": "Jogo de Lençol Flanelado",
+          "description": "Jogo de lençol flanelado para cama queen",
+          "specifications": "100% algodão flanelado, 1 lençol de baixo com elástico, 1 lençol de cima, 2 fronhas",
+          "estimated_cost": 180.00,
+          "status": "completed",
+          "created_at": "2022-11-10T13:55:00Z",
+          "updated_at": "2023-05-16T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Móveis Modulares Office",
+      "description": "Linha de móveis modulares para escritório",
+      "retailer_id": 2,
+      "responsible_id": 2,
+      "category_id": 1,
+      "launch_date": "2024-02-28",
+      "status": "draft",
+      "created_at": "2023-09-01T15:00:00Z",
+      "updated_at": "2023-09-01T15:00:00Z",
+      "products": [
+        {
+          "id": 12,
+          "name": "Escrivaninha Modular",
+          "description": "Escrivaninha com módulos ajustáveis",
+          "specifications": "MDF 25mm, estrutura metálica, sistema de encaixe sem parafusos, dimensões ajustáveis",
+          "estimated_cost": 850.00,
+          "status": "draft",
+          "created_at": "2023-09-01T15:05:00Z",
+          "updated_at": "2023-09-01T15:05:00Z"
+        },
+        {
+          "id": 13,
+          "name": "Estante Modular",
+          "description": "Estante com módulos ajustáveis",
+          "specifications": "MDF 18mm, sistema de encaixe sem parafusos, dimensões ajustáveis",
+          "estimated_cost": 650.00,
+          "status": "draft",
+          "created_at": "2023-09-01T15:10:00Z",
+          "updated_at": "2023-09-01T15:10:00Z"
+        }
+      ]
+    }
+  ]
+}
