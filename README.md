@@ -2,7 +2,25 @@
 
 ## Contexto do Problema
 
-A Amicci precisa de um sistema para gerenciar projetos. Esse projeto pode conter N produtos a serem desenvolvidos por uma Indústria, onde descreve as premissas contratuais e atributos de cada um dos produtos.
+A Amicci é uma companhia que conecta indústrias à varejistas para criação de projetos de desenvolvimento de produtos de marca-própria. Para que esse processo ocorra, é necessário um sistema para gerenciamento de projetos. 
+
+No modelo de negócio da Amicci, em um mesmo projeto, indústria e varejista podem negociar, desenvolver e produzir N produtos, também chamados de SKUs.
+
+Os SKUs podem ter diversas categorias: alimentos, pet, mercearia seca, etc.
+
+As etapas padrão dos projetos de marca própria são:
+1. Especificação do(s) produto(s) desejados para fabricação no projeto
+   - Responsável: varejista
+2. Seleção da indústria que realizará o projeto e fabricação dos produtos.
+   - Responsável: varejista
+3. Formalização dos acordos feitos entre varejo e indústria após negociação de valores e quantidades.
+   - Responsáveis: indústria e varejista
+4. Desenvolvimento do(s) produto(s)
+   - Definição de identidade da marca, design, dados regulatórios e impressão
+   - Responsáveis: indústria e varejista
+5. Produção
+   - Fabricação e entrega do produto para o varejista
+   - Responsável: indústria
 
 ## Estrutura do Repositório Base
 
@@ -37,24 +55,9 @@ O candidato receberá:
 
 ## Histórias de Usuário
 
-### História 1: Listagem e Filtro de Projetos
+### História 1: Criação e Edição de Projetos
 
-**Como** gerente de projetos
-
-**Quero** visualizar e filtrar projetos
-
-**Para** acompanhar o status dos projetos
-
-**Critérios de Aceitação:**
-
-- Exibir lista de projetos com informações principais (nome, varejista, responsável, categoria, data de lançamento)
-- Permitir filtrar por categoria e varejista
-- Implementar paginação para resultados
-- Garantir que a interface seja responsiva
-
-### História 2: Criação e Edição de Projetos
-
-**Como** gerente de projetos
+**Como** varejista
 
 **Quero** criar e editar projetos
 
@@ -65,7 +68,22 @@ O candidato receberá:
 - Formulário com validação de campos
 - Seleção de fornecedor e categoria
 - Feedback visual de sucesso/erro
-- Persistência dos dados no back-end
+- Garantir que a interface seja responsiva
+
+### História 2: Listagem e Filtro de Projetos
+
+**Como** varejista
+
+**Quero** visualizar e filtrar meus projetos na plataforma
+
+**Para** acompanhamento das informações e status dos projetos
+
+**Critérios de Aceitação:**
+
+- Exibir lista de projetos com informações principais (nome, varejista, responsável, categoria)
+- Permitir filtrar por categoria e indústria
+- Implementar paginação para resultados
+- Garantir que a interface seja responsiva
 
 ## Tarefas do Candidato
 
