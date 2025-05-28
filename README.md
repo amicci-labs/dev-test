@@ -126,6 +126,7 @@ Para candidatos que concluírem as tarefas básicas e desejarem demonstrar habil
 - Organização do código e separação de responsabilidades
 - Padrões de projeto e boas práticas
 - Decisões técnicas e trade-offs (documentados)
+- Diagrama da Arquitetura do Sistema
 
 ### Qualidade de Código
 
